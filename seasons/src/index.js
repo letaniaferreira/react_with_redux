@@ -7,7 +7,7 @@ import Spinner from './Spinner';
 class App extends React.Component {
 
     state = { lat: null, errorMessage: '' };
-    
+
     componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
         (position) => this.setState({ lat:  position.coords.latitude }),
@@ -25,7 +25,7 @@ class App extends React.Component {
             return <SeasonDisplay lat={this.state.lat} />
         }
 
-        return <Spinner />;
+        return <Spinner message="Please accept location request"  />;
     }
 }
 
