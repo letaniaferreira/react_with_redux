@@ -10,7 +10,7 @@ const App = () => {
 					<CommentDetail
 					author="Sam"
 					timeAgo="Today at 3:45PM"
-					text="blah"
+					text="Eu sou o Sam e queria apresentar"
 					avatar={faker.image.avatar()}
 					/>
 				</ApprovalCard>
@@ -19,7 +19,7 @@ const App = () => {
 					<CommentDetail
 					 author="Alex"
 					 timeAgo="Today at 2:45PM"
-					 text="blah"
+					 text="Nossos amigos acabaram de chegar"
 					 avatar={faker.image.avatar()}
 					 />
 				</ApprovalCard>
@@ -27,7 +27,7 @@ const App = () => {
 				<ApprovalCard>
 					<CommentDetail author="Jane"
 					timeAgo="Today at 1:45PM"
-					text="blah"
+					text="Somos amigos como na musica do Balao Magico"
 					avatar={faker.image.avatar()}
 					/>
 				</ApprovalCard>
