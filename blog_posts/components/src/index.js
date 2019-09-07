@@ -11,6 +11,7 @@ const App = () => {
 					author="Sam"
 					timeAgo="Today at 3:45PM"
 					text="Eu sou o Sam e queria apresentar"
+					sentence="O amor e tudo que ha"
 					avatar={faker.image.avatar()}
 					/>
 				</ApprovalCard>
@@ -20,6 +21,7 @@ const App = () => {
 					 author="Alex"
 					 timeAgo="Today at 2:45PM"
 					 text="Nossos amigos acabaram de chegar"
+					 sentence="Sem amor eu nada seria"
 					 avatar={faker.image.avatar()}
 					 />
 				</ApprovalCard>
@@ -28,6 +30,7 @@ const App = () => {
 					<CommentDetail author="Jane"
 					timeAgo="Today at 1:45PM"
 					text="Somos amigos como na musica do Balao Magico"
+					sentence="So o amor conhece o que e verdade"
 					avatar={faker.image.avatar()}
 					/>
 				</ApprovalCard>
