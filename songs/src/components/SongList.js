@@ -20,7 +20,7 @@ class SongList extends React.Component {
     }
 
     render() {
-        return <div>{this.renderList()}</div>;
+        return <div className="ui divided list">{this.renderList()}</div>;
     }
 
 }
