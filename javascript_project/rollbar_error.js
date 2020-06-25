@@ -48,11 +48,11 @@
   		}
 	}
 
-	try {
-  		throw new Error("Something went wrong");
-	} catch (e) {
-		console.log('This is challenging but I like challenges')
-  		Rollbar.error(e);
-	}
+	// try {
+ //  		throw new Error("Something went wrong in test");
+	// } catch (e) {
+	// 	console.log('This is challenging but I like challenges')
+ //  		Rollbar.error(e);
+	// }
 
 
