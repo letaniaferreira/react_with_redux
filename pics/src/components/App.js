@@ -20,7 +20,8 @@ class App extends React.Component {
 		return (
 			<div className="ui container" style={{ marginTop: '10px'}}>
 				<SearchBar onSubmitingForm={this.onSearchSubmit}/>
-				<ImageList images={this.state.images}/>
+				{/* I need to use 'carimages=' below in order to use the props system on ImagesList*/}
+				<ImageList carimages={this.state.images}/>
 			</div>
 		);
 	}
