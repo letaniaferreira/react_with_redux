@@ -8,6 +8,7 @@ class SearchBar extends React.Component {
     };
 
     onFormSubmit = event => {
+        // This prevents the page from refreshing upon searchbar submission
         event.preventDefault();
         // todo make sure to call callback from parent component
     };
