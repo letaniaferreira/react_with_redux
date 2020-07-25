@@ -2,12 +2,12 @@ import React from "react";
 import { connect } from 'react-redux';
 import mapStateToProps from "react-redux/lib/connect/mapStateToProps";
 
-const = SongDetail => (props) {
+const SongDetail = (props) => {
     console.log(props)
     return <div>Song Detail</div>
 };
 
-const = mapStateToProps => (state) {
+const mapStateToProps = (state) => {
     return { song: state.SelectedSongReducer }
 }
 
