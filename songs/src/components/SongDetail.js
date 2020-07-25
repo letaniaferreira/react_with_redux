@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from 'react-redux';
-import mapStateToProps from "react-redux/lib/connect/mapStateToProps";
 
 const SongDetail = (props) => {
     console.log(props)
